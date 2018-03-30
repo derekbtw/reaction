@@ -20,7 +20,7 @@
   "description": "React app template using React-Router and Bootstrap 4",
   "main": "index.js",
   "repository": "https://github.com/derekbtw/routestrap",
-  "homepage": "https://routestrap.github.io",
+  "website": "https://routestrap.github.io",
   "author": "Derek Bytheway",
   "license": "MIT"
 }
