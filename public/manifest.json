@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Routestrap",
+  "name": "React app template using React-Router and Bootstrap 4",
   "icons": [
     {
       "src": "favicon.ico",
