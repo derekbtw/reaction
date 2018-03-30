@@ -1,0 +1,25 @@
+{
+  "name": "Routestrap",
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.9",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "React app template using React-Router and Bootstrap 4",
+  "main": "index.js",
+  "repository": "https://github.com/derekbtw/routestrap",
+  "author": "Derek Bytheway",
+  "license": "MIT"
+}
