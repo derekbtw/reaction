@@ -67,9 +67,11 @@ p.content {
   max-height: 25px;
   transition: ease-in-out opacity 150ms;
 }
+
 .app-logo:hover {
   opacity: 1;
 }
+
 footer .app-logo {
   max-height: 5rem;
 }
@@ -81,6 +83,7 @@ footer .app-logo {
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
+
 .site-header a {
   font-weight: 500;
   font-size: 14px;
@@ -88,6 +91,7 @@ footer .app-logo {
   color: rgba(255, 255, 255, 0.6);
   transition: ease-in-out color 150ms;
 }
+
 .site-header a:hover {
   color: #fff;
   text-decoration: none;
