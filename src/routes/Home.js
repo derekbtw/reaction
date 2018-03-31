@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import HomeRow1 from "../components/Home/Home-Row-1";
 import HomeRow2 from "../components/Home/Home-Row-2";
 import HomeRow3 from "../components/Home/Home-Row-3";
@@ -30,13 +29,14 @@ class Home extends Component {
             </p>
             <a
               href="https://github.com/derekbtw/routestrap"
-              className="btn btn-dark d-block d-md-inline mr-md-1 mb-2 mb-md-0">
+              className="btn btn-lg btn-dark d-block d-md-inline mr-md-1 mb-2 mb-md-0">
               View on GitHub
             </a>
             <a
               href="https://github.com/derekbtw/routestrap/archive/master.zip"
               target="_blank"
-              className="btn btn-outline-dark d-block d-md-inline ml-md-1">
+              rel="noopener noreferrer"
+              className="btn btn-lg btn-outline-dark d-block d-md-inline ml-md-1">
               Download
             </a>
           </div>
