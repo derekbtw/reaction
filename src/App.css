@@ -1,7 +1,64 @@
-@import url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/59615/sf-text.css');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700|Product+Sans:100,300,400"); /* 100,300,400,500,700,900 */
+
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 body {
-  font-family: "SF Text", sans-serif;
+  color: #424242;
+  font-family: "Roboto", "Product Sans", system-ui, sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Product Sans", sans-serif;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+  font-family: "Product Sans", sans-serif;
+  font-weight: 400 !important;
+  text-rendering: optimizeLegibility;
+  letter-spacing: .4px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+p.content {
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.lead {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  line-height: 28px;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .container {
@@ -29,44 +86,15 @@ footer .app-logo {
   backdrop-filter: saturate(180%) blur(20px);
 }
 .site-header a {
-  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
   transition: ease-in-out color 150ms;
 }
 .site-header a:hover {
   color: #fff;
   text-decoration: none;
-}
-
-/* dummy devices */
-
-.product-device {
-  position: absolute;
-  right: 10%;
-  bottom: -30%;
-  width: 300px;
-  height: 540px;
-  background-color: #333;
-  border-radius: 21px;
-  -webkit-transform: rotate(30deg);
-  transform: rotate(30deg);
-}
-.product-device::before {
-  position: absolute;
-  top: 10%;
-  right: 10px;
-  bottom: 10%;
-  left: 10px;
-  content: "";
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 5px;
-}
-
-.product-device-2 {
-  top: -25%;
-  right: auto;
-  bottom: 0;
-  left: 5%;
-  background-color: #e5e5e5;
 }
 
 /* extra utilities */

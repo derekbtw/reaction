@@ -9,7 +9,7 @@ class Home extends Component {
     return (
       <div>
         <div className="position-relative overflow-hidden p-3 p-md-5 text-center bg-light">
-          <div className="col-md-5 p-lg-5 mx-auto my-5">
+          <div className="col-md-5 p-lg-5 mx-auto my-5 hero">
             <h1 className="display-4 font-weight-light">
               Routestrap
               <span className="text-muted" style={{
@@ -18,6 +18,7 @@ class Home extends Component {
                 marginTop: '2rem',
                 paddingLeft: '1rem',
                 fontSize: '1rem',
+                fontFamily: '"Roboto", sans-serif',
               }}>
                 v0.1.0
               </span>
@@ -29,13 +30,13 @@ class Home extends Component {
             </p>
             <a
               href="https://github.com/derekbtw/routestrap"
-              className="btn btn-dark d-block d-md-inline-block mr-md-1 ">
+              className="btn btn-dark d-block d-md-inline mr-md-1 mb-2 mb-md-0">
               View on GitHub
             </a>
             <a
               href="https://github.com/derekbtw/routestrap/archive/master.zip"
               target="_blank"
-              className="btn btn-outline-dark d-block d-md-inline-block ml-md-1">
+              className="btn btn-outline-dark d-block d-md-inline ml-md-1">
               Download
             </a>
           </div>
