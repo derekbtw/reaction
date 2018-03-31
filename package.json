@@ -1,5 +1,5 @@
 {
-  "name": "Routestrap",
+  "name": "Reaction",
   "description": "React app template using React-Router and Bootstrap 4",
   "version": "0.1.0",
   "keywords": [
@@ -14,8 +14,8 @@
     "project",
     "web"
   ],
-  "homepage": "https://derekbtw.github.io/routestrap/",
-  "repository": "https://github.com/derekbtw/routestrap",
+  "homepage": "https://derekbtw.github.io/reaction/",
+  "repository": "https://github.com/derekbtw/reaction",
   "author": "Derek Bytheway",
   "dependencies": {
     "bootstrap": "^4.0.0",
