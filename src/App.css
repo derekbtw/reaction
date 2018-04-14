@@ -1,100 +1,13 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700|Product+Sans:100,300,400"); /* 100,300,400,500,700,900 */
-
-* {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -webkit-text-size-adjust: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 body {
-  color: #424242;
-  font-family: "Roboto", "Product Sans", system-ui, sans-serif;
-  font-weight: 400;
-}
-
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-.display-1,
-.display-2,
-.display-3,
-.display-4 {
-  font-family: "Product Sans", sans-serif;
-  font-weight: 400 !important;
-  text-rendering: optimizeLegibility;
-  letter-spacing: .4px;
-}
-
-p {
-  font-family: "Roboto", sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-p.content {
-  font-size: 18px;
-  line-height: 34px;
-}
-
-.lead {
-  font-size: 20px;
-  font-weight: 500;
-  font-family: "Roboto", sans-serif;
-  line-height: 28px;
-}
-
-.btn {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 36px;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+  padding-top: 56px;
 }
 
 .container {
   max-width: 960px;
 }
 
-.app-logo {
-  height: 100%;
-  opacity: 0.7;
-  max-height: 25px;
-  transition: ease-in-out opacity 150ms;
-}
-
-.app-logo:hover {
-  opacity: 1;
-}
-
 footer .app-logo {
   max-height: 5rem;
-}
-
-/* custom translucent site header */
-
-.site-header {
-  background-color: rgba(0, 0, 0, 0.85);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
-}
-
-.site-header a {
-  font-weight: 500;
-  font-size: 14px;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.6);
-  transition: ease-in-out color 150ms;
-}
-
-.site-header a:hover {
-  color: #fff;
-  text-decoration: none;
 }
 
 /* extra utilities */
@@ -107,15 +20,12 @@ footer .app-logo {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.box-shadow {
-  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
-}
-
 .flex-equal > * {
   -ms-flex: 1;
   -webkit-box-flex: 1;
   flex: 1;
 }
+
 @media (min-width: 768px) {
   .flex-md-equal > * {
     -ms-flex: 1;

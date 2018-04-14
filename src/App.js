@@ -15,6 +15,7 @@ import Pricing from "./routes/Pricing";
 import Footer from "./components/Footer";
 import logo from "./components/logo.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
 import "./App.css";
 
 class App extends Component {
@@ -22,18 +23,26 @@ class App extends Component {
     return (
       <HashRouter>
         <div>
-          <nav className="site-header sticky-top py-1">
-            <div className="container d-flex flex-column flex-md-row justify-content-between">
-              <Link to="/" className="py-2">
-                <img src={logo} className="app-logo" alt="logo" />
+          <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+            <div className="container">
+              <Link to="/" className="navbar-brand">
+                {/* <img src={logo} alt="logo"/> */}
+                Reaction
               </Link>
-              <NavLink to="/" className="py-2 my-auto d-none d-md-inline-block">Home</NavLink>
-              <NavLink to="/tour" className="py-2 my-auto d-none d-md-inline-block">Tour</NavLink>
-              <NavLink to="/product" className="py-2 my-auto d-none d-md-inline-block">Product</NavLink>
-              <NavLink to="/features" className="py-2 my-auto d-none d-md-inline-block">Features</NavLink>
-              <NavLink to="/enterprise" className="py-2 my-auto d-none d-md-inline-block">Enterprise</NavLink>
-              <NavLink to="/billing" className="py-2 my-auto d-none d-md-inline-block">Billing</NavLink>
-              <NavLink to="/pricing" className="py-2 my-auto d-none d-md-inline-block">Pricing</NavLink>
+              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+              </button>
+              <div className="collapse navbar-collapse" id="navbar">
+                <ul className="navbar-nav ml-auto">
+                  <NavLink to="/" className="nav-link px-3">Home</NavLink>
+                  <NavLink to="/tour" className="nav-link px-3">Tour</NavLink>
+                  <NavLink to="/product" className="nav-link px-3">Product</NavLink>
+                  <NavLink to="/features" className="nav-link px-3">Features</NavLink>
+                  <NavLink to="/enterprise" className="nav-link px-3">Enterprise</NavLink>
+                  <NavLink to="/billing" className="nav-link px-3">Billing</NavLink>
+                  <NavLink to="/pricing" className="nav-link px-3">Pricing</NavLink>
+                </ul>
+              </div>
             </div>
           </nav>
           <div>

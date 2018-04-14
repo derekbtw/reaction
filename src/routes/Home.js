@@ -10,38 +10,37 @@ class Home extends Component {
         <div className="position-relative overflow-hidden p-3 p-md-5 text-center bg-light">
           <div className="col-md-5 p-lg-5 mx-auto my-5 hero">
             <h1 className="display-4 font-weight-light">
-              Routestrap
+              Reaction
               <span className="text-muted" style={{
                 display: 'inline-block',
                 position: 'absolute',
                 marginTop: '2rem',
                 paddingLeft: '1rem',
                 fontSize: '1rem',
-                fontFamily: '"Roboto", sans-serif',
               }}>
-                v0.1.0
+                v0.1.1
               </span>
             </h1>
             <p className="lead my-5 font-weight-normal">
-              Routestrap is a React app template using React-Router and
+              Reaction is a React app template using React-Router and
               Bootstrap 4. It comes with seven pre-built pages allowing you to
               get a new project started super quickly.
             </p>
             <a
               href="https://github.com/derekbtw/routestrap"
-              className="btn btn-lg btn-dark d-block d-md-inline mr-md-1 mb-2 mb-md-0">
+              className="btn btn-primary d-block d-md-inline mr-md-1 mb-2 mb-md-0">
               View on GitHub
             </a>
             <a
               href="https://github.com/derekbtw/routestrap/archive/master.zip"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-lg btn-outline-dark d-block d-md-inline ml-md-1">
+              className="btn btn-outline-primary d-block d-md-inline ml-md-1">
               Download
             </a>
           </div>
-          <div className="product-device box-shadow d-none d-md-block"></div>
-          <div className="product-device product-device-2 box-shadow d-none d-md-block"></div>
+          <div className="product-device shadow-sm d-none d-md-block"></div>
+          <div className="product-device product-device-2 shadow-sm d-none d-md-block"></div>
         </div>
         <HomeRow1 />
         <HomeRow2 />

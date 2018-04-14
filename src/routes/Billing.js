@@ -66,7 +66,7 @@ class Support extends Component {
               <div className="row">
                 <div className="col-md-6 mb-3">
                   <label for="firstName">First name</label>
-                  <input type="text" className="form-control" id="firstName" placeholder="" value="" required />
+                  <input type="text" className="form-control" id="firstName" />
                   <div className="invalid-feedback">
                     Valid first name is required.
                   </div>
@@ -74,7 +74,7 @@ class Support extends Component {
 
                 <div className="col-md-6 mb-3">
                   <label for="lastName">Last name</label>
-                  <input type="text" className="form-control" id="lastName" placeholder="" value="" required />
+                  <input type="text" className="form-control" id="lastName" />
                   <div className="invalid-feedback">
                     Valid last name is required.
                   </div>
@@ -87,7 +87,7 @@ class Support extends Component {
                   <div className="input-group-prepend">
                     <span className="input-group-text">@</span>
                   </div>
-                  <input type="text" className="form-control" id="username" placeholder="Username" required />
+                  <input type="text" className="form-control" id="username" placeholder="Username" />
                   <div className="invalid-feedback" style={{width: '100%'}}>
                     Your username is required.
                   </div>
@@ -104,7 +104,7 @@ class Support extends Component {
 
               <div className="mb-3">
                 <label for="address">Address</label>
-                <input type="text" className="form-control" id="address" placeholder="1234 Main St" required />
+                <input type="text" className="form-control" id="address" placeholder="1234 Main St" />
                 <div className="invalid-feedback">
                   Please enter your shipping address.
                 </div>
@@ -118,7 +118,7 @@ class Support extends Component {
               <div className="row">
                 <div className="col-md-5 mb-3">
                   <label for="country">Country</label>
-                  <select className="custom-select d-block w-100" id="country" required>
+                  <select className="custom-select d-block w-100" id="country">
                     <option value="">Choose...</option>
                     <option>United States</option>
                   </select>
@@ -129,7 +129,7 @@ class Support extends Component {
 
                 <div className="col-md-4 mb-3">
                   <label for="state">State</label>
-                  <select className="custom-select d-block w-100" id="state" required>
+                  <select className="custom-select d-block w-100" id="state">
                     <option value="">Choose...</option>
                     <option>California</option>
                   </select>
@@ -140,7 +140,7 @@ class Support extends Component {
 
                 <div className="col-md-3 mb-3">
                   <label for="zip">Zip</label>
-                  <input type="text" className="form-control" id="zip" placeholder="" required />
+                  <input type="text" className="form-control" id="zip" placeholder="" />
                   <div className="invalid-feedback">
                     Zip code required.
                   </div>
@@ -165,17 +165,17 @@ class Support extends Component {
 
               <div className="d-block my-3">
                 <div className="custom-control custom-radio">
-                  <input id="credit" name="paymentMethod" type="radio" className="custom-control-input" checked required />
+                  <input id="credit" name="paymentMethod" type="radio" className="custom-control-input" checked />
                   <label className="custom-control-label" for="credit">Credit card</label>
                 </div>
 
                 <div className="custom-control custom-radio">
-                  <input id="debit" name="paymentMethod" type="radio" className="custom-control-input" required />
+                  <input id="debit" name="paymentMethod" type="radio" className="custom-control-input" />
                   <label className="custom-control-label" for="debit">Debit card</label>
                 </div>
 
                 <div className="custom-control custom-radio">
-                  <input id="paypal" name="paymentMethod" type="radio" className="custom-control-input" required />
+                  <input id="paypal" name="paymentMethod" type="radio" className="custom-control-input" />
                   <label className="custom-control-label" for="paypal">Paypal</label>
                 </div>
               </div>
@@ -183,7 +183,7 @@ class Support extends Component {
               <div className="row">
                 <div className="col-md-6 mb-3">
                   <label for="cc-name">Name on card</label>
-                  <input type="text" className="form-control" id="cc-name" placeholder="" required />
+                  <input type="text" className="form-control" id="cc-name" placeholder="" />
                   <small className="text-muted">Full name as displayed on card</small>
                   <div className="invalid-feedback">
                     Name on card is required
@@ -192,7 +192,7 @@ class Support extends Component {
 
                 <div className="col-md-6 mb-3">
                   <label for="cc-number">Credit card number</label>
-                  <input type="text" className="form-control" id="cc-number" placeholder="" required />
+                  <input type="text" className="form-control" id="cc-number" placeholder="" />
                   <div className="invalid-feedback">
                     Credit card number is required
                   </div>
@@ -202,7 +202,7 @@ class Support extends Component {
               <div className="row">
                 <div className="col-md-3 mb-3">
                   <label for="cc-expiration">Expiration</label>
-                  <input type="text" className="form-control" id="cc-expiration" placeholder="" required />
+                  <input type="text" className="form-control" id="cc-expiration" placeholder="" />
                   <div className="invalid-feedback">
                     Expiration date required
                   </div>
@@ -210,7 +210,7 @@ class Support extends Component {
 
                 <div className="col-md-3 mb-3">
                   <label for="cc-expiration">CVV</label>
-                  <input type="text" className="form-control" id="cc-cvv" placeholder="" required />
+                  <input type="text" className="form-control" id="cc-cvv" placeholder="" />
                   <div className="invalid-feedback">
                     Security code required
                   </div>
