@@ -9,4 +9,6 @@ $ yarn && yarn start
 ```
 
 To build for production:<br/>
-`$ yarn build`
+```
+$ yarn build`
+```
