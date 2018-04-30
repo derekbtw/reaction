@@ -13,10 +13,10 @@ import Enterprise from "./routes/Enterprise";
 import Billing from "./routes/Billing";
 import Pricing from "./routes/Pricing";
 import Footer from "./components/Footer";
-import logo from "./components/logo.svg";
+import logo from "./components/logo.svg"; // eslint-disable-line
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-import "./App.css";
+import "./static/css/app.css";
 
 class App extends Component {
   render() {
