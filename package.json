@@ -26,9 +26,16 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.1"
   },
+  "devDependencies": {
+    "npm-run-all": "^4.1.2"
+  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build-css": "stylus -c src/static/stylus/ --out src/static/css",
+    "watch-css": "yarn run build-css && stylus -c -w src/static/stylus/ --out src/static/css",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build-js": "react-scripts build",
+    "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
