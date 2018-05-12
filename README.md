@@ -12,3 +12,6 @@ To build for production:<br/>
 ```
 $ yarn build
 ```
+
+## Run in your browser
+<a href="https://codesandbox.io/s/github/derekbtw/reaction">Run in CodeSandbox</a>
