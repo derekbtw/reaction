@@ -18,7 +18,7 @@
   "repository": "https://github.com/derekbtw/reaction",
   "author": "Derek Bytheway",
   "dependencies": {
-    "bootstrap": "^4.1.0",
+    "bootstrap": "^4.2.1",
     "jquery": "^3.2.1",
     "popper.js": "^1.12.9",
     "react": "^16.2.0",
